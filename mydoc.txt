@@ -1,0 +1,10 @@
+//this is documentation
+npm install - g @angular/cli
+
+// provides a list of commands
+ng
+
+//start a new project
+ng new angular8
+
+npm start
