@@ -1,4 +1,4 @@
-//this is documentation
+//this is documentation, if you want to upgrade your global version
 npm install - g @angular/cli
 
 // provides a list of commands
@@ -11,3 +11,9 @@ npm start
 
 //if you want to create a new branch and clone the existing branch into into
 git checkout -b mybranchname origin/mybranchname
+
+//if can use the following command to install all dependencies
+npm install
+
+ng generate course-card
+

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {COURSES} from '../db-data';
+import { COURSES } from '../db-data';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +8,12 @@ import {COURSES} from '../db-data';
 })
 export class AppComponent {
 
+  c = COURSES[0];
+  r = COURSES[1];
+  n = COURSES[2];
 
+  onCourseSelected() {
+    console.log("app lvl triggered")
+  }
 
 }
