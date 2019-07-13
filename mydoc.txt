@@ -8,3 +8,6 @@ ng
 ng new angular8
 
 npm start
+
+//if you want to create a new branch and clone the existing branch into into
+git checkout -b mybranchname origin/mybranchname

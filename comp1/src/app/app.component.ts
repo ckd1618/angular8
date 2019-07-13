@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {COURSES} from '../db-data';
 
 @Component({
   selector: 'app-root',
@@ -6,16 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular8';
-  myVal = 'not gg'
 
-  onLogoClicked() {
-    alert('Hello Word');
-  }
-
-  onKeyUp(newTitle: string) {
-    this.title = newTitle;
-  }
 
 
 }
