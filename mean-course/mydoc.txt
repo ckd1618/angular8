@@ -1,0 +1,4 @@
+npm install -g @angular/cli
+ng new mean-course
+ng serve
+//npm install will read the package.json file and install dependencies
